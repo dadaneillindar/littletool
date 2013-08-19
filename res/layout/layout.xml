@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout 
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true" >
+        <TextView 
+            android:id="@+id/hour_label"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textStyle="bold"
+    		android:textSize="120dp"
+    		android:text="6"/>
+        <TextView 
+            android:id="@+id/colon_label"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textStyle="bold"
+    		android:textSize="120dp"
+    		android:text=":"/>
+        <TextView 
+            android:id="@+id/minute_label"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textSize="120dp"
+    		android:text="03"/>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="2013年8月19日 星期一"
+    	android:textSize="25dp"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@id/time"/>
+
+</RelativeLayout>
