@@ -12,28 +12,25 @@
             android:layout_width="wrap_content"
     		android:layout_height="wrap_content"
     		android:textStyle="bold"
-    		android:textSize="120dp"
-    		android:text="6"/>
+    		android:textSize="105sp"/>
         <TextView 
             android:id="@+id/colon_label"
             android:layout_width="wrap_content"
     		android:layout_height="wrap_content"
     		android:textStyle="bold"
-    		android:textSize="120dp"
-    		android:text=":"/>
+    		android:textSize="105sp"
+    		android:text="@string/mark"/>
         <TextView 
             android:id="@+id/minute_label"
             android:layout_width="wrap_content"
     		android:layout_height="wrap_content"
-    		android:textSize="120dp"
-    		android:text="03"/>
+    		android:textSize="105sp"/>
     </LinearLayout>
     <TextView 
         android:id="@+id/date_label"
         android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
-    	android:text="2013年8月19日 星期一"
-    	android:textSize="25dp"
+    	android:textSize="20sp"
     	android:layout_centerHorizontal="true"
     	android:layout_below="@id/time"/>
 

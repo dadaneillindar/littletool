@@ -1,5 +1,6 @@
 <resources>
 
     <string name="app_name">Littletool</string>
+    <string name="mark"> : </string>
 
 </resources>

@@ -13,7 +13,7 @@ public class appwidget extends AppWidgetProvider {
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWigetIds) {
 		RemoteViews rv = new RemoteViews(context.getPackageName(),R.layout.layout);
 		
-		Date d = new Date();
+		Date date = new Date();
 		Calendar c = Calendar.getInstance();
 		String hour_str = String.format("%1$X", c.get(Calendar.HOUR_OF_DAY));
 		String min_str = String.format("%1$X", c.get(Calendar.MINUTE));

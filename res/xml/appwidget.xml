@@ -5,7 +5,7 @@
     android:minHeight="200dp" 
     android:minWidth="480dp" 
     android:resizeMode="none" 
-    android:updatePeriodMillis="100" 
+    android:updatePeriodMillis="1000" 
     android:widgetCategory="home_screen|keyguard" 
     android:previewImage="@drawable/ic_launcher">
     
